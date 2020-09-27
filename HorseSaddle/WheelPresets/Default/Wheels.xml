@@ -186,7 +186,7 @@
     <Segment Name="Mammoth" Action="AddLeader"/>
     <Segment Name="Monkey King" Action="AddLeader"/>
     <Segment Name="Da Vinci Tank" Action="AddLeader"/>
-    <Segment Name="Pirate King" Action="AddLeader"/>
+    <Segment Name="Captain" Action="AddLeader"/>
     <Segment Name="Pirate Queen" Action="AddLeader"/>
     <Segment Name="Reaper" Action="AddLeader"/>
     <Segment Name="Quick Draw" Action="AddLeader"/>
