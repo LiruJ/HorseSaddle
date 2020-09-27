@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Main>
+  <!--The resources for this style-->
+  <Resources Folder="">
+    <Fonts>
+      <Default URI="Gui/UIFont"/>
+    </Fonts>
+    <Images>
+      <Main URI="Gui/MainUI" Tilemap="4, 4">
+        <Button/>
+        <ButtonPressed/>
+        <Inlay/>
+        <Item/>
+      </Main>
+      <Icons URI="Gui/Icons" Tilemap="3,3">
+        <Circle Tile="1, 0"/>
+        <CircleChecked Tile="2, 0"/>
+        <SquarePlus Tile="0, 2"/>
+        <SquareMinus Tile="0, 1"/>
+        <Left Tile="1, 2"/>
+        <Right Tile="2, 2"/>
+        <LeftPressed Tile="1, 1"/>
+        <RightPressed Tile="2, 1"/>
+      </Icons>
+    </Images>
+  </Resources>
+  
+  <!--The main content for the style-->
+  <Styles>
+    <Default>
+      <Background Image="Button" NineSlice="Thirds" Tiled="false" Colour="#4F245F"/>
+      <Text Font="Default" Colour="#bbb"/>
+    </Default>
+
+    <Inlay>
+      <Background Image="Inlay" NineSlice="Thirds" Tiled="false" Colour="#7D5989"/>
+      <Text Font="Default" Colour="#ddd"/>
+    </Inlay>
+
+    <Inset Base="Default">
+      <Background Colour="#250330"/>
+    </Inset>
+
+    <ListItem>
+      <Background Image="Item" NineSlice="Thirds" Tiled="false" Colour="#8A8DB0"/>
+      <Text Font="Default" Colour="#ddd"/>
+    </ListItem>
+    
+    <Hover Base="Default">
+      <Background Colour="#643972"/>
+      <Text Colour="#ddd"/>
+    </Hover>
+
+    <Click Base="Default">
+      <Background Image="ButtonPressed" Colour="#3C1249"/>
+      <Text Colour="#999"/>
+    </Click>
+
+    <Disabled Base="Default">
+      <Background Colour="#250330"/>
+      <Text Colour="#222"/>
+    </Disabled>
+
+    <Left>
+      <Background Image="Left" Colour="#7D5989"/>
+      <Text Font="Default" Colour="#bbb"/>
+    </Left>
+    
+    <LeftHover Base="Left">
+      <Background Colour="#977DA0"/>
+      <Text Colour="#ddd"/>
+    </LeftHover>
+
+    <LeftClick Base="Left">
+      <Background Image="LeftPressed" Colour="#673B75"/>
+      <Text Colour="#999"/>
+    </LeftClick>
+
+    <LeftDisabled Base="Left">
+      <Background Colour="#250330"/>
+      <Text Colour="#222"/>
+    </LeftDisabled>
+
+    <Right>
+      <Background Image="Right" Colour="#7D5989"/>
+      <Text Font="Default" Colour="#bbb"/>
+    </Right>
+
+    <RightHover Base="Right">
+      <Background Colour="#977DA0"/>
+      <Text Colour="#ddd"/>
+    </RightHover>
+
+    <RightClick Base="Right">
+      <Background Image="RightPressed" Colour="#673B75"/>
+      <Text Colour="#999"/>
+    </RightClick>
+
+    <RightDisabled Base="Right">
+      <Background Colour="#250330"/>
+      <Text Colour="#222"/>
+    </RightDisabled>
+
+    <Add>
+      <Background Image="SquarePlus" Colour="#7D5989"/>
+    </Add>
+
+    <AddHover Base="Add">
+      <Background Colour="#977DA0"/>
+    </AddHover>
+    
+    <AddClick Base="Add">
+      <Background Colour="#673B75"/>
+    </AddClick>
+
+    <Remove>
+      <Background Image="SquareMinus" Colour="#4F245F"/>
+    </Remove>
+
+    <RemoveHover Base="Remove">
+      <Background Colour="#643972"/>
+    </RemoveHover>
+
+    <RemoveClick Base="Remove">
+      <Background Colour="#3C1249"/>
+    </RemoveClick>
+
+    <JustText Base="Default">
+      <Background Colour="#0000"/>
+    </JustText>
+  </Styles>
+</Main>

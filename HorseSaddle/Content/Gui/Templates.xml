@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Templates>
+  <WheelHolder>
+    <AspectRatioFitter/>
+  </WheelHolder>
+  <WheelsTabBar>
+    <AspectRatioFitter/>
+    <Frame/>
+  </WheelsTabBar>
+  <TeamDisplay>
+    <Frame/>
+  </TeamDisplay>
+  <SquareButton Controller="Button">
+    <Frame/>
+    <MouseHandler/>
+    <AspectRatioFitter/>
+  </SquareButton>
+  <FreeUnitList>
+    <Frame/>
+    <DirectionalLayout/>
+  </FreeUnitList>
+  <UnitListItem>
+    <Frame/>
+  </UnitListItem>
+  <UnitSelectionList>
+    <Frame/>
+    <DirectionalLayout/>
+  </UnitSelectionList>
+  <UnitSelectorWindow>
+    <Frame/>
+  </UnitSelectorWindow>
+</Templates>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Units>
+  <Unit Name="Clubber" Cost="70" />
+  <Unit Name="Protector" Cost="90" />
+  <Unit Name="Spear Thrower" Cost="120" />
+  <Unit Name="Stoner" Cost="160" />
+  <Unit Name="Bone Mage" Cost="300" />
+  <Unit Name="Chieftain" Cost="400" />
+  <Unit Name="Mammoth" Cost="2200" />
+  <Unit Name="Halfling" Cost="50" />
+  <Unit Name="Farmer" Cost="70" />
+  <Unit Name="Haybaler" Cost="140" />
+  <Unit Name="Potionseller" Cost="340" />
+  <Unit Name="Harvester" Cost="500" />
+  <Unit Name="Wheelbarrow" Cost="1000" />
+  <Unit Name="Scarecrow" Cost="1200" />
+  <Unit Name="Bard" Cost="60" />
+  <Unit Name="Squire" Cost="100" />
+  <Unit Name="Archer" Cost="140" />
+  <Unit Name="Healer" Cost="180" />
+  <Unit Name="Knight" Cost="650" />
+  <Unit Name="Catapult" Cost="1000" />
+  <Unit Name="King" Cost="1500" />
+  <Unit Name="Shield Bearer" Cost="100" />
+  <Unit Name="Sarissa" Cost="120" />
+  <Unit Name="Hoplite" Cost="180" />
+  <Unit Name="Snake Archer" Cost="300" />
+  <Unit Name="Ballista" Cost="900" />
+  <Unit Name="Minotaur" Cost="1600" />
+  <Unit Name="Zeus" Cost="2000" />
+  <Unit Name="Headbutter" Cost="90" />
+  <Unit Name="Ice Archer" Cost="160" />
+  <Unit Name="Brawler" Cost="220" />
+  <Unit Name="Berserker" Cost="250" />
+  <Unit Name="Valkyrie" Cost="500" />
+  <Unit Name="Jarl" Cost="850" />
+  <Unit Name="Longship" Cost="1000" />
+  <Unit Name="Samurai" Cost="140" />
+  <Unit Name="Firework Archer" Cost="180" />
+  <Unit Name="Monk" Cost="250" />
+  <Unit Name="Ninja" Cost="500" />
+  <Unit Name="Dragon" Cost="1000" />
+  <Unit Name="Hwacha" Cost="1500" />
+  <Unit Name="Monkey King" Cost="2000" />
+  <Unit Name="Painter" Cost="50" />
+  <Unit Name="Fencer" Cost="150" />
+  <Unit Name="Balloon Archer" Cost="200" />
+  <Unit Name="Musketeer" Cost="250" />
+  <Unit Name="Halberd" Cost="400" />
+  <Unit Name="Jouster" Cost="1000" />
+  <Unit Name="Da Vinci Tank" Cost="4000" />
+  <Unit Name="Flintlock" Cost="100" />
+  <Unit Name="Blunderbuss" Cost="200" />
+  <Unit Name="Bomb Thrower" Cost="250" />
+  <Unit Name="Harpooner" Cost="400" />
+  <Unit Name="Cannon" Cost="1000" />
+  <Unit Name="Captain" Cost="1500" />
+  <Unit Name="Pirate Queen" Cost="2500" />
+  <Unit Name="Skeleton Warrior" Cost="80" />
+  <Unit Name="Skeleton Archer" Cost="120" />
+  <Unit Name="Candlehead" Cost="200" />
+  <Unit Name="Vampire" Cost="200" />
+  <Unit Name="Pumpkin Catapult" Cost="1000" />
+  <Unit Name="Swordcaster" Cost="1000" />
+  <Unit Name="Reaper" Cost="2500" />
+  <Unit Name="Dynamite Thrower" Cost="120" />
+  <Unit Name="Miner" Cost="200" />
+  <Unit Name="Cactus" Cost="400" />
+  <Unit Name="Gunslinger" Cost="650" />
+  <Unit Name="Lasso" Cost="850" />
+  <Unit Name="Deadeye" Cost="900" />
+  <Unit Name="Quickdraw" Cost="1200" />
+  <Unit Name="Ballooneer" Cost="90" />
+  <Unit Name="Bomb on a Stick" Cost="180" />
+  <Unit Name="Fan Bearer" Cost="200" />
+  <Unit Name="Raptor" Cost="200" />
+  <Unit Name="The Teacher" Cost="300" />
+  <Unit Name="Shouter" Cost="250" />
+  <Unit Name="Jester" Cost="300" />
+  <Unit Name="Ball n' chain" Cost="350" />
+  <Unit Name="Chu Ko Nu" Cost="350" />
+  <Unit Name="Executioner" Cost="350" />
+  <Unit Name="Taekwondo" Cost="400" />
+  <Unit Name="Raptor Rider" Cost="480" />
+  <Unit Name="Mace Spinner" Cost="500" />
+  <Unit Name="CLAMS" Cost="500" />
+  <Unit Name="Cheerleader" Cost="500" />
+  <Unit Name="Cupid" Cost="500" />
+  <Unit Name="Bank Robbers" Cost="850" />
+  <Unit Name="Vlad" Cost="1000" />
+  <Unit Name="Wheelbarrow Dragon" Cost="1400" />
+  <Unit Name="Bomb Cannon" Cost="1500" />
+  <Unit Name="Cavalry" Cost="1800" />
+  <Unit Name="Gatling Gun" Cost="2000" />
+  <Unit Name="Lady Red Jade" Cost="2000" />
+  <Unit Name="Blackbeard" Cost="2500" />
+  <Unit Name="Shogun" Cost="2800" />
+  <Unit Name="Samurai Giant" Cost="3000" />
+  <Unit Name="Sensei" Cost="3000" />
+  <Unit Name="Ullr" Cost="3000" />
+  <Unit Name="Tree Giant" Cost="4000" />
+  <Unit Name="Ice Giant" Cost="6000" />
+  <Unit Name="Artemis" Cost="6500" />
+  <Unit Name="Flag Bearer" Cost="100" />
+  <Unit Name="Tank" Cost="6000" />
+</Units>

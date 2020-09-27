@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Main Styles="Content/Gui/MainStyle" DefaultStyle="Default" Templates="Content/Gui/Templates" Padding="5">
+
+  <!--The wheels selector bar.-->
+  <WheelsTabBar Position="50%, 0" Size="40%, 5%" Pivot="50%, 0" RatioMode="HeightControlsWidth" Ratio="6" Tag="WheelsBar"/>
+
+  <!--The left team.-->
+  <TeamDisplay Position="0, 50%" Size="20%, 75%" Pivot="0%, 50%" Padding="5" Tag="LeftTeam">
+    <TextBox Position="0, 0" Size="50%, 5%" Text="Player Name" Style="Inlay" Name="Name"/>
+
+    <Partition Position="100%, 0" Size="50%, 5%" Pivot="100%, 0">
+      <SquareButton Position="0%, 50%" Size="10%, 100%" Pivot="0, 50%" Name="DecreaseScore" RatioMode="WidthControlsHeight" Ratio="1" Style="Left" HoveredStyle="LeftHover" ClickedStyle="LeftClick" DisabledStyle="LeftDisabled"/>
+      <TextBox Position="50%, 0" Size="80%, 100%" Pivot="50%, 0" Text="HORSE" Style="Inlay" Name="Score"/>
+      <SquareButton Position="100%, 50%" Size="10%, 100%" Pivot="100%, 50%" Name="IncreaseScore" RatioMode="WidthControlsHeight" Ratio="1" Style="Right" HoveredStyle="RightHover" ClickedStyle="RightClick" DisabledStyle="RightDisabled"/>
+    </Partition>
+
+    <!--The frame header.-->
+    <TextBox Position="0, 6%" Size="100%, 5%" Text="Free Units" Style="Inlay"/>
+    
+    <!--The header.-->
+    <Partition Position="0, 13%" Size="100%, 3%">
+      <TextBox Position="0, 0%" Size="70%, 100%" Text="Name" Style="Inlay"/>
+      <TextBox Position="70%, 0%" Size="20%, 100%" Text="Cost" Style="Inlay"/>
+      <SquareButton Position="95%, 0%" Size="10%, 100%" Pivot="50%, 0" Style="Add" HoveredStyle="AddHover" ClickedStyle="AddClick" RatioMode="HeightControlsWidth" Ratio="1" Name="AddUnitButton"/>
+    </Partition>
+
+    <!--The free unit list.-->
+    <FreeUnitList Position="0, 16%" Size="100%, 69%" Padding="2.5" Style="Inlay" Name="FreeUnits"/>
+
+    <Partition Position="0, 100%" Size="100%, 15%" Pivot="0, 100%">
+      <!--The free unit cost total.-->
+      <TextBox Position="25%, 0" Size="50%, 25%" Text="Units: " Style="Inlay"/>
+      <TextBox Position="100%, 0" Size="25%, 25%" Pivot="100%, 0" Text="0" Style="Inlay" Name="UnitTotal"/>
+
+      <!--The bonus points total.-->
+      <TextBox Position="25%, 25%" Size="50%, 25%" Text="Bonus: " Style="Inlay"/>
+      <TextBox Position="100%, 25%" Size="25%, 25%" Pivot="100%, 0" Text="0" Style="Inlay" Name="BonusTotal"/>
+
+      <!--The round points total.-->
+      <TextBox Position="25%, 50%" Size="50%, 25%" Text="Base: " Style="Inlay"/>
+      <TextBox Position="100%, 50%" Size="25%, 25%" Pivot="100%, 0" Text="0" Style="Inlay" Name="BaseTotal"/>
+
+      <!--The overall total.-->
+      <TextBox Position="0%, 75%" Size="50%, 25%" Text="Total Budget: " Style="Inlay"/>
+      <TextBox Position="100%, 75%" Size="50%, 25%" Pivot="100%, 0" Text="0" Style="Inlay" Name="Total"/>
+    </Partition>
+  </TeamDisplay>
+  
+  <!--The right team.-->
+  <TeamDisplay Position="100%, 50%" Size="20%, 75%" Pivot="100%, 50%" Padding="5" Tag="RightTeam">
+    <TextBox Position="0, 0" Size="50%, 5%" Text="Player Name" Style="Inlay" Name="Name"/>
+
+    <Partition Position="100%, 0" Size="50%, 5%" Pivot="100%, 0">
+      <SquareButton Position="0%, 50%" Size="10%, 100%" Pivot="0, 50%" Name="DecreaseScore" RatioMode="WidthControlsHeight" Ratio="1" Style="Left" HoveredStyle="LeftHover" ClickedStyle="LeftClick" DisabledStyle="LeftDisabled"/>
+      <TextBox Position="50%, 0" Size="80%, 100%" Pivot="50%, 0" Text="HORSE" Style="Inlay" Name="Score"/>
+      <SquareButton Position="100%, 50%" Size="10%, 100%" Pivot="100%, 50%" Name="IncreaseScore" RatioMode="WidthControlsHeight" Ratio="1" Style="Right" HoveredStyle="RightHover" ClickedStyle="RightClick" DisabledStyle="RightDisabled"/>
+    </Partition>
+
+    <!--The frame header.-->
+    <TextBox Position="0, 6%" Size="100%, 5%" Text="Free Units" Style="Inlay"/>
+
+    <!--The header.-->
+    <Partition Position="0, 13%" Size="100%, 3%">
+      <TextBox Position="0, 0%" Size="70%, 100%" Text="Name" Style="Inlay"/>
+      <TextBox Position="70%, 0%" Size="20%, 100%" Text="Cost" Style="Inlay"/>
+      <SquareButton Position="95%, 0%" Size="10%, 100%" Pivot="50%, 0" Style="Add" HoveredStyle="AddHover" ClickedStyle="AddClick" RatioMode="HeightControlsWidth" Ratio="1" Name="AddUnitButton"/>
+    </Partition>
+
+    <!--The free unit list.-->
+    <FreeUnitList Position="0, 16%" Size="100%, 69%" Padding="2.5" Style="Inlay" Name="FreeUnits"/>
+
+    <Partition Position="0, 100%" Size="100%, 15%" Pivot="0, 100%">
+      <!--The free unit cost total.-->
+      <TextBox Position="25%, 0" Size="50%, 25%" Text="Units: " Style="Inlay"/>
+      <TextBox Position="100%, 0" Size="25%, 25%" Pivot="100%, 0" Text="0" Style="Inlay" Name="UnitTotal"/>
+
+      <!--The bonus points total.-->
+      <TextBox Position="25%, 25%" Size="50%, 25%" Text="Bonus: " Style="Inlay"/>
+      <TextBox Position="100%, 25%" Size="25%, 25%" Pivot="100%, 0" Text="0" Style="Inlay" Name="BonusTotal"/>
+
+      <!--The round points total.-->
+      <TextBox Position="25%, 50%" Size="50%, 25%" Text="Base: " Style="Inlay"/>
+      <TextBox Position="100%, 50%" Size="25%, 25%" Pivot="100%, 0" Text="0" Style="Inlay" Name="BaseTotal"/>
+
+      <!--The overall total.-->
+      <TextBox Position="0%, 75%" Size="50%, 25%" Text="Total Budget: " Style="Inlay"/>
+      <TextBox Position="100%, 75%" Size="50%, 25%" Pivot="100%, 0" Text="0" Style="Inlay" Name="Total"/>
+    </Partition>
+  </TeamDisplay>
+  
+  <!--The current wheel.-->
+  <Partition Position="50%, 5%" Size="40%, 95%" Pivot="50%, 0" Padding="5">
+    <TextBox Position="50%, 0%" Size="100%, 5%" Pivot="50%, 0%" Text="Wheel Name" Name="NameDisplay"/>
+    
+    <TextBox Position="50%, 7.5%" Size="75%, 5%" Pivot="50%, 0%" Text="Segment" Name="SegmentDisplay"/>
+    
+    <WheelHolder Position="50%, 15%" Size="100%, 72.5%" Pivot="50%, 0%" RatioMode="HeightControlsWidth" Ratio="1" Tag="CurrentWheel"/>
+    
+    <!--The control buttons.-->
+    <Partition Position ="50%, 90%" Size="50%, 10%" Pivot="50%, 0%">
+      <TextButton Position="50%, 0%" Size="100%, 33.33%" Pivot="50%, 0%" Text="Spin" Name="SpinButton" HoveredStyle="Hover" ClickedStyle="Click" DisabledStyle="Disabled"/>
+      
+      <TextButton Position="50%, 50%"   Size="100%, 33.33%" Pivot="50%, 50%"   Text="Do"       Name="DoButton"       HoveredStyle="Hover" ClickedStyle="Click" DisabledStyle="Disabled" Enabled="false" Visible="false"/>
+      <Partition Position="0%, 50%" Size="100%, 33.33%" Pivot="0%, 50%" Enabled="false" Visible="false">
+        <TextButton Position="0%, 0%"    Size="50%, 100%" Pivot="0%, 0%"    Text="Do Left"  Name="DoLeftButton"   HoveredStyle="Hover" ClickedStyle="Click" DisabledStyle="Disabled"/>
+        <TextButton Position="100%, 0%"  Size="50%, 100%" Pivot="100%, 0%"  Text="Do Right" Name="DoRightButton"  HoveredStyle="Hover" ClickedStyle="Click" DisabledStyle="Disabled"/>
+      </Partition>
+      
+      <TextButton Position="0%, 100%"   Size="33.33%, 33.33%" Pivot="0%, 100%"   Text="Remove"  Name="RemoveButton" HoveredStyle="Hover" ClickedStyle="Click" DisabledStyle="Disabled"/>
+      <TextButton Position="50%, 100%"  Size="33.33%, 33.33%" Pivot="50%, 100%"  Text="Reset"   Name="ResetButton" HoveredStyle="Hover" ClickedStyle="Click" DisabledStyle="Disabled"/>
+      <TextButton Position="100%, 100%" Size="33.33%, 33.33%" Pivot="100%, 100%" Text="Add"     Name="AddButton" HoveredStyle="Hover" ClickedStyle="Click" DisabledStyle="Disabled" Enabled="false"/>
+      
+    </Partition>
+  </Partition>
+
+  <UnitSelectorWindow Position="50%" Size="20%, 70%" Pivot="50%" Padding="5" Enabled="false" Visible="false" Tag="AddUnitWindow">
+    <TextBox Position="0%" Size="100%, 5%" Text="Add Free Unit" Style="Inlay"/>
+
+    <UnitSelectionList Position="0%, 7.5%" Size ="95%, 85%" Style="Inlay" Padding="5" Name="UnitList"/>
+
+    <SliderBar Position="100%, 10%" Size="5%, 80%" Pivot="100%, 0%" Layout="Vertical" Style="Inset" Name="Scrollbar">
+      <SliderKnob Image="Circle" Size="100%, 5%" Pivot="50%"/>
+    </SliderBar>
+    
+    <TextButton Position="100%" Size="50%, 5%" Pivot="100%" Text="Done" Name="DoneButton" HoveredStyle="Hover" ClickedStyle="Click" DisabledStyle="Disabled"/>
+  </UnitSelectorWindow>
+</Main>

@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Wheels Name="Default Horse Wheel">
+  <Wheel Name="Wheel of Maps" Radius="200" InnerRadius="36" InnerColour="#333" Colours="Red, Green, Blue, #7A9F35, #226666" BorderColour="#222" BorderThickness="1" DividerColour="#222" TextPadding="5" Drag="6.28" InnerImage="Logo.png" IndicatorImage="Indicator.png" IconImage="Icon.png">
+    <Segment Name="Low Ground"/>
+    <Segment Name="Tribal 1"/>
+    <Segment Name="Tribal 2"/>
+    <Segment Name="Tribal Sandbox"/>
+    <Segment Name="Farmer 1"/>
+    <Segment Name="Farmer 2"/>
+    <Segment Name="Medieval 1"/>
+    <Segment Name="Medieval 2"/>
+    <Segment Name="Ancient 1"/>
+    <Segment Name="Ancient 2"/>
+    <Segment Name="Ancient Sandbox"/>
+    <Segment Name="Dynasty"/>
+    <Segment Name="Renaissance"/>
+    <Segment Name="Pirate"/>
+    <Segment Name="Spooky 1"/>
+    <Segment Name="Spooky 2"/>
+    <Segment Name="Bridge"/>
+    <Segment Name="Bridge with Rails"/>
+    <Segment Name="Mae"/>
+    <Segment Name="Hill"/>
+    <Segment Name="Port"/>
+    <Segment Name="Corridor"/>
+    <Segment Name="Line"/>
+    <Segment Name="Moat"/>
+    <Segment Name="Arena"/>
+  </Wheel>
+  <Wheel Name="Wheel of Warriors" Radius="200" InnerRadius="36" InnerColour="#333" Colours="Red, Green, Blue, #7A9F35, #226666" BorderColour="#222" BorderThickness="1" DividerColour="#222" TextPadding="5" Drag="6.28" InnerImage="Logo.png" IndicatorImage="Indicator.png" IconImage="Icon.png">
+    <Repeat Amount="2">
+      <Segment Name="Tribal"/>
+      <Segment Name="Farmer"/>
+      <Segment Name="Ancient"/>
+      <Segment Name="Medieval"/>
+      <Segment Name="Viking"/>
+      <Segment Name="Dynasty"/>
+      <Segment Name="Renaissance"/>
+      <Segment Name="Pirate"/>
+      <Segment Name="Spooky"/>
+      <Segment Name="Wild West"/>
+      <Segment Name="Secret"/>
+      <Segment Name="Legacy"/>
+      <Segment Name="Opponent's Choice"/>
+      <Segment Name="Your Choice"/>
+    </Repeat>
+    <Segment Name="Wheel of Wacky"/>
+    <Segment Name="250pts or More"/>
+    <Segment Name="250pts or Less"/>
+    <Segment Name="Ranged Only"/>
+    <Segment Name="Melee Only"/>
+  </Wheel>
+  <Wheel Name="Wheel of Units" Radius="200" InnerRadius="36" InnerColour="#333" Colours="Red, Green, Blue, #7A9F35, #226666" BorderColour="#222" BorderThickness="1" DividerColour="#222" TextPadding="5" Drag="10" InnerImage="Logo.png" IndicatorImage="Indicator.png" IconImage="Icon.png">
+    <Segment Name="Clubber" Action="AddFreeUnit"/>
+    <Segment Name="Protector" Action="AddFreeUnit"/>
+    <Segment Name="Spear Thrower" Action="AddFreeUnit"/>
+    <Segment Name="Stoner" Action="AddFreeUnit"/>
+    <Segment Name="Bone Mage" Action="AddFreeUnit"/>
+    <Segment Name="Chieftain" Action="AddFreeUnit"/>
+    <Segment Name="Mammoth" Action="AddFreeUnit"/>
+    <Segment Name="Halfling" Action="AddFreeUnit"/>
+    <Segment Name="Farmer" Action="AddFreeUnit"/>
+    <Segment Name="Haybaler" Action="AddFreeUnit"/>
+    <Segment Name="Potionseller" Action="AddFreeUnit"/>
+    <Segment Name="Harvester" Action="AddFreeUnit"/>
+    <Segment Name="Wheelbarrow" Action="AddFreeUnit"/>
+    <Segment Name="Scarecrow" Action="AddFreeUnit"/>
+    <Segment Name="Bard" Action="AddFreeUnit"/>
+    <Segment Name="Squire" Action="AddFreeUnit"/>
+    <Segment Name="Archer" Action="AddFreeUnit"/>
+    <Segment Name="Healer" Action="AddFreeUnit"/>
+    <Segment Name="Knight" Action="AddFreeUnit"/>
+    <Segment Name="Catapult" Action="AddFreeUnit"/>
+    <Segment Name="King" Action="AddFreeUnit"/>
+    <Segment Name="Shield Bearer" Action="AddFreeUnit"/>
+    <Segment Name="Sarissa" Action="AddFreeUnit"/>
+    <Segment Name="Hoplite" Action="AddFreeUnit"/>
+    <Segment Name="Snake Archer" Action="AddFreeUnit"/>
+    <Segment Name="Ballista" Action="AddFreeUnit"/>
+    <Segment Name="Minotaur" Action="AddFreeUnit"/>
+    <Segment Name="Zeus" Action="AddFreeUnit"/>
+    <Segment Name="Headbutter" Action="AddFreeUnit"/>
+    <Segment Name="Ice Archer" Action="AddFreeUnit"/>
+    <Segment Name="Brawler" Action="AddFreeUnit"/>
+    <Segment Name="Berserker" Action="AddFreeUnit"/>
+    <Segment Name="Valkyrie" Action="AddFreeUnit"/>
+    <Segment Name="Jarl" Action="AddFreeUnit"/>
+    <Segment Name="Longship" Action="AddFreeUnit"/>
+    <Segment Name="Samurai" Action="AddFreeUnit"/>
+    <Segment Name="Firework Archer" Action="AddFreeUnit"/>
+    <Segment Name="Monk" Action="AddFreeUnit"/>
+    <Segment Name="Ninja" Action="AddFreeUnit"/>
+    <Segment Name="Dragon" Action="AddFreeUnit"/>
+    <Segment Name="Hwacha" Action="AddFreeUnit"/>
+    <Segment Name="Monkey King" Action="AddFreeUnit"/>
+    <Segment Name="Painter" Action="AddFreeUnit"/>
+    <Segment Name="Fencer" Action="AddFreeUnit"/>
+    <Segment Name="Balloon Archer" Action="AddFreeUnit"/>
+    <Segment Name="Musketeer" Action="AddFreeUnit"/>
+    <Segment Name="Halberd" Action="AddFreeUnit"/>
+    <Segment Name="Jouster" Action="AddFreeUnit"/>
+    <Segment Name="Da Vinci Tank" Action="AddFreeUnit"/>
+    <Segment Name="Flintlock" Action="AddFreeUnit"/>
+    <Segment Name="Blunderbuss" Action="AddFreeUnit"/>
+    <Segment Name="Bomb Thrower" Action="AddFreeUnit"/>
+    <Segment Name="Harpooner" Action="AddFreeUnit"/>
+    <Segment Name="Cannon" Action="AddFreeUnit"/>
+    <Segment Name="Captain" Action="AddFreeUnit"/>
+    <Segment Name="Pirate Queen" Action="AddFreeUnit"/>
+    <Segment Name="Skeleton Warrior" Action="AddFreeUnit"/>
+    <Segment Name="Skeleton Archer" Action="AddFreeUnit"/>
+    <Segment Name="Candlehead" Action="AddFreeUnit"/>
+    <Segment Name="Vampire" Action="AddFreeUnit"/>
+    <Segment Name="Pumpkin Catapult" Action="AddFreeUnit"/>
+    <Segment Name="Swordcaster" Action="AddFreeUnit"/>
+    <Segment Name="Reaper" Action="AddFreeUnit"/>
+    <Segment Name="Dynamite Thrower" Action="AddFreeUnit"/>
+    <Segment Name="Miner" Action="AddFreeUnit"/>
+    <Segment Name="Cactus" Action="AddFreeUnit"/>
+    <Segment Name="Gunslinger" Action="AddFreeUnit"/>
+    <Segment Name="Lasso" Action="AddFreeUnit"/>
+    <Segment Name="Deadeye" Action="AddFreeUnit"/>
+    <Segment Name="Quickdraw" Action="AddFreeUnit"/>
+    <Segment Name="Ballooneer" Action="AddFreeUnit"/>
+    <Segment Name="Bomb on a Stick" Action="AddFreeUnit"/>
+    <Segment Name="Fan Bearer" Action="AddFreeUnit"/>
+    <Segment Name="Raptor" Action="AddFreeUnit"/>
+    <Segment Name="The Teacher" Action="AddFreeUnit"/>
+    <Segment Name="Shouter" Action="AddFreeUnit"/>
+    <Segment Name="Jester" Action="AddFreeUnit"/>
+    <Segment Name="Ball n' chain" Action="AddFreeUnit"/>
+    <Segment Name="Chu Ko Nu" Action="AddFreeUnit"/>
+    <Segment Name="Executioner" Action="AddFreeUnit"/>
+    <Segment Name="Taekwondo" Action="AddFreeUnit"/>
+    <Segment Name="Raptor Rider" Action="AddFreeUnit"/>
+    <Segment Name="Mace Spinner" Action="AddFreeUnit"/>
+    <Segment Name="CLAMS" Action="AddFreeUnit"/>
+    <Segment Name="Cheerleader" Action="AddFreeUnit"/>
+    <Segment Name="Cupid" Action="AddFreeUnit"/>
+    <Segment Name="Bank Robbers" Action="AddFreeUnit"/>
+    <Segment Name="Vlad" Action="AddFreeUnit"/>
+    <Segment Name="Wheelbarrow Dragon" Action="AddFreeUnit"/>
+    <Segment Name="Bomb Cannon" Action="AddFreeUnit"/>
+    <Segment Name="Cavalry" Action="AddFreeUnit"/>
+    <Segment Name="Gatling Gun" Action="AddFreeUnit"/>
+    <Segment Name="Lady Red Jade" Action="AddFreeUnit"/>
+    <Segment Name="Blackbeard" Action="AddFreeUnit"/>
+    <Segment Name="Shogun" Action="AddFreeUnit"/>
+    <Segment Name="Samurai Giant" Action="AddFreeUnit"/>
+    <Segment Name="Sensei" Action="AddFreeUnit"/>
+    <Segment Name="Ullr" Action="AddFreeUnit"/>
+    <Segment Name="Tree Giant" Action="AddFreeUnit"/>
+    <Segment Name="Ice Giant" Action="AddFreeUnit"/>
+    <Segment Name="Artemis" Action="AddFreeUnit"/>
+  </Wheel>
+  <Wheel Name="Wheel of Losers" Radius="200" InnerRadius="36" InnerColour="#330000" Colours="#82001E, #470A00, #41000F, #650018" BorderColour="#222" BorderThickness="1" DividerColour="#222" TextPadding="5" Drag="6.28" InnerImage="Logo.png" IndicatorImage="Indicator.png" IconImage="Icon.png">
+    <Segment Name="+2500pts" Action="AddBonusPoints" Amount="2500"/>
+    <Segment Name="Delete 1 Enemy"/>
+    <Segment Name="Reset - Pick Two"/>
+    <Segment Name="+1500pts" Action="AddBonusPoints" Amount="1500"/>
+    <Segment Name="Reset - Special Faction"/>
+    <Segment Name="+2000pts" Action="AddBonusPoints" Amount="2000"/>
+    <Segment Name="5 Random Units!"/>
+  </Wheel>
+  <Wheel Name="Wheel of Wacky" Radius="200" InnerRadius="36" InnerColour="#333" Colours="Red, Green, Blue, #7A9F35, #226666" BorderColour="#222" BorderThickness="1" DividerColour="#222" TextPadding="5" Drag="6.28" InnerImage="Logo.png" IndicatorImage="Indicator.png" IconImage="Icon.png">
+    <Segment Name="Place Each Other's Armies"/>
+    <Segment Name="All Units Fly"/>
+    <Segment Name="All Units Big"/>
+    <Segment Name="Fast Missile Weapons"/>
+    <Segment Name="3 Da Vinci Tanks or 2 Tanks"/>
+    <Segment Name="All Units Spin"/>
+    <Segment Name="Dupe Both Leaders"/>
+    <Segment Name="SWITCH ARMIES!!!!!" Action="SwitchArmies"/>
+    <Segment Name="Randomise the Line"/>
+    <Segment Name="Randomise the Leaders"/>
+    <Segment Name="Flag Bearer x 3" Action="AddFreeUnit" Unit="Flag Bearer" Amount="3"/>
+    <Segment Name="Secret Always Available"/>
+  </Wheel>
+  <Wheel Name="Wheel of Leaders" Radius="200" InnerRadius="36" InnerColour="#333" Colours="Red, Green, Blue, #7A9F35, #226666" BorderColour="#222" BorderThickness="1" DividerColour="#222" TextPadding="5" Drag="6.28" InnerImage="Logo.png" IndicatorImage="Indicator.png" IconImage="Icon.png">
+    <Segment Name="Ullr" Action="AddLeader"/>
+    <Segment Name="Tree Giant" Action="AddLeader"/>
+    <Segment Name="Ice Giant" Action="AddLeader"/>
+    <Segment Name="Artemis" Action="AddLeader"/>
+    <Segment Name="Tank" Action="AddLeader"/>
+    <Segment Name="Thor" Action="AddLeader"/>
+    <Segment Name="Mammoth" Action="AddLeader"/>
+    <Segment Name="Monkey King" Action="AddLeader"/>
+    <Segment Name="Da Vinci Tank" Action="AddLeader"/>
+    <Segment Name="Pirate King" Action="AddLeader"/>
+    <Segment Name="Pirate Queen" Action="AddLeader"/>
+    <Segment Name="Reaper" Action="AddLeader"/>
+    <Segment Name="Quick Draw" Action="AddLeader"/>
+    <Segment Name="Lady Red Jade" Action="AddLeader"/>
+    <Segment Name="Black Beard" Action="AddLeader"/>
+    <Segment Name="Shogun" Action="AddLeader"/>
+    <Segment Name="Samurai Giant" Action="AddLeader"/>
+    <Segment Name="Sensei" Action="AddLeader"/>
+  </Wheel>
+</Wheels>
