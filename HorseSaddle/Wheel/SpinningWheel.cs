@@ -249,7 +249,7 @@ namespace HorseSaddle.Wheel
                 Color textColour = Color.White;// new Color(Vector3.One - segmentColours[i % segmentColours.Count].ToVector3());
 
                 // Finally, draw the rotated text.
-                spriteBatch.DrawString(Font, segments[i].Name, textPosition + new Vector2(1, 2), new Color(0.1f, 0.1f, 0.1f, 0.75f), textAngle, new Vector2(0, stringSize.Y / 2), 1, SpriteEffects.None, 0);
+                spriteBatch.DrawString(Font, segments[i].Name, textPosition + new Vector2(2), new Color(0.1f, 0.1f, 0.1f, 0.9f), textAngle, new Vector2(0, stringSize.Y / 2), 1, SpriteEffects.None, 0);
                 spriteBatch.DrawString(Font, segments[i].Name, textPosition, textColour, textAngle, new Vector2(0, stringSize.Y / 2), 1, SpriteEffects.None, 0);
             }
         }

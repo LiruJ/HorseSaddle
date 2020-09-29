@@ -6,6 +6,7 @@ using HorseSaddle.Units;
 using HorseSaddle.Wheel;
 using HorseSaddle.Wheel.Segments;
 using LiruGameHelper.XML;
+using LiruGameHelperMonogame.Parsers;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
@@ -24,6 +25,8 @@ namespace HorseSaddle
         private const string pointsPerRoundAttributeName = "PointsPerRound";
 
         private const string scoreNameAttributeName = "ScoreName";
+
+        private const string backgroundAttributeName = "Background";
         #endregion
 
         #region Dependencies
@@ -47,6 +50,7 @@ namespace HorseSaddle
 
         private GuiCamera guiCamera = null;
 
+        private Color backgroundColour = Color.Magenta;
         #endregion
 
         #region Game Properties
@@ -119,6 +123,7 @@ namespace HorseSaddle
             pointsPerRound = settingsNode.ParseAttributeValue(pointsPerRoundAttributeName, int.Parse);
             ScoreName = settingsNode.GetAttributeValue(scoreNameAttributeName);
             WheelPresetPath = Path.Combine("WheelPresets", settingsNode.GetAttributeValue(wheelPresetAttributeName), "Wheels.xml");
+            if (settingsNode.Attributes.GetNamedItem(backgroundAttributeName) != null) backgroundColour = settingsNode.ParseAttributeValue(backgroundAttributeName, Colour.Parse);
 
             // Load the units.
             XmlDocument unitsFile = new XmlDocument();
@@ -167,7 +172,7 @@ namespace HorseSaddle
         protected override void Draw(GameTime gameTime)
         {
             // Clear to the setting's colour.
-            GraphicsDevice.Clear(Color.Magenta);
+            GraphicsDevice.Clear(backgroundColour);
 
             // Draw the UI.
             guiCamera.Begin();

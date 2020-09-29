@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<Settings ScoreName="HORSE" PointsPerRound="2500" WheelName="Default">
+<Settings ScoreName="HORSE" PointsPerRound="2500" WheelName="Default" Background="#ff00ff">
   <LeftTeam Name="Left" Colour="Blue" />
   <RightTeam Name="Right" Colour="Red" />
 </Settings>
