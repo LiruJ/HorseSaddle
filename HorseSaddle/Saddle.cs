@@ -41,6 +41,8 @@ namespace HorseSaddle
         private int currentRound = 0;
 
         private int pointsPerRound = 2500;
+
+        private KeyboardState lastFrameKeyboardState;
         #endregion
 
         #region Graphical Fields
@@ -99,11 +101,13 @@ namespace HorseSaddle
             // Initialise to 720p.
             graphics.PreferredBackBufferWidth = 1280;
             graphics.PreferredBackBufferHeight = 720;
+            graphics.HardwareModeSwitch = false;
             graphics.ApplyChanges();
 
             // Some QoL stuff.
             IsMouseVisible = true;
             Window.AllowUserResizing = true;
+            Window.Title = "Horse Saddle Version 1.0.2";
 
             // Call the base initialisation function.
             base.Initialize();
@@ -162,7 +166,33 @@ namespace HorseSaddle
         {
             // Update the UI.
             wheelsController.Update(gameTime);
-            
+
+            // Get the current keyboard state.
+            KeyboardState keyboardState = Keyboard.GetState();
+
+            // Handle fullscreening.
+            if (keyboardState.IsKeyDown(Keys.F11) && lastFrameKeyboardState.IsKeyUp(Keys.F11) && IsActive)
+            {
+                // Set window size.
+                if (graphics.IsFullScreen)
+                {
+                    graphics.PreferredBackBufferWidth = 1280;
+                    graphics.PreferredBackBufferHeight = 720;
+                }
+                else
+                {
+                    graphics.PreferredBackBufferWidth = GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Width;
+                    graphics.PreferredBackBufferHeight = GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Height;
+                }
+
+                // Toggle fullscreen.
+                graphics.ToggleFullScreen();
+                graphics.ApplyChanges();
+            }
+
+            // Save the last keyboard state.
+            lastFrameKeyboardState = keyboardState;
+
             // Update the base.
             base.Update(gameTime);
         }

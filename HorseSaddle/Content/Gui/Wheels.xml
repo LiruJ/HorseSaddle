@@ -33,6 +33,8 @@
       <TextBox Position="100%, 0" Size="25%, 25%" Pivot="100%, 0" Text="0" Style="Inlay" Name="UnitTotal"/>
 
       <!--The bonus points total.-->
+      <SquareButton Position="0%, 25%" Size="25%, 25%" Style="RemoveP" HoveredStyle="RemovePHover" ClickedStyle="RemovePClick" DisabledStyle="RemovePDisabled" RatioMode="HeightControlsWidth" Ratio="1" Name="RemovePoints"/>
+      <SquareButton Position="25%, 25%" Size="25%, 25%" Pivot="100%, 0" Style="Add" HoveredStyle="AddHover" ClickedStyle="AddClick" DisabledStyle="AddDisabled" RatioMode="HeightControlsWidth" Ratio="1" Name="AddPoints"/>
       <TextBox Position="25%, 25%" Size="50%, 25%" Text="Bonus: " Style="Inlay"/>
       <TextBox Position="100%, 25%" Size="25%, 25%" Pivot="100%, 0" Text="0" Style="Inlay" Name="BonusTotal"/>
 
@@ -75,6 +77,8 @@
       <TextBox Position="100%, 0" Size="25%, 25%" Pivot="100%, 0" Text="0" Style="Inlay" Name="UnitTotal"/>
 
       <!--The bonus points total.-->
+      <SquareButton Position="0%, 25%" Size="25%, 25%" Style="RemoveP" HoveredStyle="RemovePHover" ClickedStyle="RemovePClick" DisabledStyle="RemovePDisabled" RatioMode="HeightControlsWidth" Ratio="1" Name="RemovePoints"/>
+      <SquareButton Position="25%, 25%" Size="25%, 25%" Pivot="100%, 0" Style="Add" HoveredStyle="AddHover" ClickedStyle="AddClick" DisabledStyle="AddDisabled" RatioMode="HeightControlsWidth" Ratio="1" Name="AddPoints"/>
       <TextBox Position="25%, 25%" Size="50%, 25%" Text="Bonus: " Style="Inlay"/>
       <TextBox Position="100%, 25%" Size="25%, 25%" Pivot="100%, 0" Text="0" Style="Inlay" Name="BonusTotal"/>
 

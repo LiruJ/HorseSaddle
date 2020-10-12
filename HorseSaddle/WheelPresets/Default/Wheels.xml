@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Wheels Name="Default Horse Wheel">
-  <Wheel Name="Wheel of Maps" Radius="200" InnerRadius="36" InnerColour="#333" Colours="Red, Green, Blue, #7A9F35, #226666" BorderColour="#222" BorderThickness="1" DividerColour="#222" TextPadding="5" Drag="6.28" InnerImage="Logo.png" IndicatorImage="Indicator.png" IconImage="Icon.png">
+  <Wheel Name="Wheel of Maps" Radius="200" InnerRadius="50" InnerColour="#333" Colours="Red, Green, Blue, #7A9F35, #226666" BorderColour="#222" BorderThickness="1" DividerColour="#222" TextPadding="5" Drag="6.28" InnerImage="MapIcon.png" IndicatorImage="Indicator.png" IconImage="MapIcon.png">
     <Segment Name="Low Ground"/>
     <Segment Name="Tribal 1"/>
     <Segment Name="Tribal 2"/>
@@ -27,7 +27,31 @@
     <Segment Name="Moat"/>
     <Segment Name="Arena"/>
   </Wheel>
-  <Wheel Name="Wheel of Warriors" Radius="200" InnerRadius="36" InnerColour="#333" Colours="Red, Green, Blue, #7A9F35, #226666" BorderColour="#222" BorderThickness="1" DividerColour="#222" TextPadding="5" Drag="6.28" InnerImage="Logo.png" IndicatorImage="Indicator.png" IconImage="Icon.png">
+  <Wheel Name="Wheel of Teams" Radius="200" InnerRadius="50" InnerColour="#333" Colours="Blue, Red" BorderColour="#222" BorderThickness="1" DividerColour="#222" TextPadding="5" Drag="6.28" InnerImage="TeamIcon.png" IndicatorImage="Indicator.png" IconImage="TeamIcon.png">
+    <Segment Name="Red"/>
+    <Segment Name="Blue"/>
+  </Wheel>
+  <Wheel Name="Wheel of Leaders" Radius="200" InnerRadius="50" InnerColour="#333" Colours="#2058DC, #FDDB5B, #4269E2, #FAB935, #5A82EA, #CC9A06" BorderColour="#222" BorderThickness="1" DividerColour="#222" TextPadding="5" Drag="6.28" InnerImage="LeadersIcon.png" IndicatorImage="Indicator.png" IconImage="LeadersIcon.png">
+    <Segment Name="Ullr" Action="AddLeader"/>
+    <Segment Name="Tree Giant" Action="AddLeader"/>
+    <Segment Name="Ice Giant" Action="AddLeader"/>
+    <Segment Name="Artemis" Action="AddLeader"/>
+    <Segment Name="Tank" Action="AddLeader"/>
+    <Segment Name="Thor" Action="AddLeader"/>
+    <Segment Name="Mammoth" Action="AddLeader"/>
+    <Segment Name="Monkey King" Action="AddLeader"/>
+    <Segment Name="Da Vinci Tank" Action="AddLeader"/>
+    <Segment Name="Captain" Action="AddLeader"/>
+    <Segment Name="Pirate Queen" Action="AddLeader"/>
+    <Segment Name="Reaper" Action="AddLeader"/>
+    <Segment Name="Quick Draw" Action="AddLeader"/>
+    <Segment Name="Lady Red Jade" Action="AddLeader"/>
+    <Segment Name="Black Beard" Action="AddLeader"/>
+    <Segment Name="Shogun" Action="AddLeader"/>
+    <Segment Name="Samurai Giant" Action="AddLeader"/>
+    <Segment Name="Sensei" Action="AddLeader"/>
+  </Wheel>
+  <Wheel Name="Wheel of Warriors" Radius="200" InnerRadius="50" InnerColour="#333" Colours="Red, Green, Blue, #7A9F35, #226666" BorderColour="#222" BorderThickness="1" DividerColour="#222" TextPadding="5" Drag="6.28" InnerImage="WarriorsIcon.png" IndicatorImage="Indicator.png" IconImage="WarriorsIcon.png">
     <Repeat Amount="2">
       <Segment Name="Tribal"/>
       <Segment Name="Farmer"/>
@@ -50,7 +74,7 @@
     <Segment Name="Ranged Only"/>
     <Segment Name="Melee Only"/>
   </Wheel>
-  <Wheel Name="Wheel of Units" Radius="200" InnerRadius="36" InnerColour="#333" Colours="Red, Green, Blue, #7A9F35, #226666" BorderColour="#222" BorderThickness="1" DividerColour="#222" TextPadding="5" Drag="10" InnerImage="Logo.png" IndicatorImage="Indicator.png" IconImage="Icon.png">
+  <Wheel Name="Wheel of Units" Radius="200" InnerRadius="50" InnerColour="#333" Colours="Red, Green, Blue, #7A9F35, #226666" BorderColour="#222" BorderThickness="1" DividerColour="#222" TextPadding="5" Drag="10" InnerImage="UnitsIcon.png" IndicatorImage="Indicator.png" IconImage="UnitsIcon.png">
     <Segment Name="Clubber" Action="AddFreeUnit"/>
     <Segment Name="Protector" Action="AddFreeUnit"/>
     <Segment Name="Spear Thrower" Action="AddFreeUnit"/>
@@ -153,7 +177,7 @@
     <Segment Name="Ice Giant" Action="AddFreeUnit"/>
     <Segment Name="Artemis" Action="AddFreeUnit"/>
   </Wheel>
-  <Wheel Name="Wheel of Losers" Radius="200" InnerRadius="36" InnerColour="#330000" Colours="#82001E, #470A00, #41000F, #650018" BorderColour="#222" BorderThickness="1" DividerColour="#222" TextPadding="5" Drag="6.28" InnerImage="Logo.png" IndicatorImage="Indicator.png" IconImage="Icon.png">
+  <Wheel Name="Wheel of Losers" Radius="200" InnerRadius="50" InnerColour="#333" Colours="#411A5E, #8C5621, #164B57, #8C8A21" BorderColour="#222" BorderThickness="1" DividerColour="#222" TextPadding="5" Drag="6.28" InnerImage="LosersIcon.png" IndicatorImage="Indicator.png" IconImage="LosersIcon.png">
     <Segment Name="+2500pts" Action="AddBonusPoints" Amount="2500"/>
     <Segment Name="Delete 1 Enemy"/>
     <Segment Name="Reset - Pick Two"/>
@@ -162,7 +186,7 @@
     <Segment Name="+2000pts" Action="AddBonusPoints" Amount="2000"/>
     <Segment Name="5 Random Units!"/>
   </Wheel>
-  <Wheel Name="Wheel of Wacky" Radius="200" InnerRadius="36" InnerColour="#333" Colours="Red, Green, Blue, #7A9F35, #226666" BorderColour="#222" BorderThickness="1" DividerColour="#222" TextPadding="5" Drag="6.28" InnerImage="Logo.png" IndicatorImage="Indicator.png" IconImage="Icon.png">
+  <Wheel Name="Wheel of Wacky" Radius="200" InnerRadius="50" InnerColour="#333" Colours="#00F0F6, #8F76AF, #F61D64, #F6F400, #7EF600" BorderColour="#222" BorderThickness="1" DividerColour="#222" TextPadding="5" Drag="6.28" InnerImage="WackyIcon.png" IndicatorImage="Indicator.png" IconImage="WackyIcon.png">
     <Segment Name="Place Each Other's Armies"/>
     <Segment Name="All Units Fly"/>
     <Segment Name="All Units Big"/>
@@ -175,25 +199,5 @@
     <Segment Name="Randomise the Leaders"/>
     <Segment Name="Flag Bearer x 3" Action="AddFreeUnit" Unit="Flag Bearer" Amount="3"/>
     <Segment Name="Secret Always Available"/>
-  </Wheel>
-  <Wheel Name="Wheel of Leaders" Radius="200" InnerRadius="36" InnerColour="#333" Colours="Red, Green, Blue, #7A9F35, #226666" BorderColour="#222" BorderThickness="1" DividerColour="#222" TextPadding="5" Drag="6.28" InnerImage="Logo.png" IndicatorImage="Indicator.png" IconImage="Icon.png">
-    <Segment Name="Ullr" Action="AddLeader"/>
-    <Segment Name="Tree Giant" Action="AddLeader"/>
-    <Segment Name="Ice Giant" Action="AddLeader"/>
-    <Segment Name="Artemis" Action="AddLeader"/>
-    <Segment Name="Tank" Action="AddLeader"/>
-    <Segment Name="Thor" Action="AddLeader"/>
-    <Segment Name="Mammoth" Action="AddLeader"/>
-    <Segment Name="Monkey King" Action="AddLeader"/>
-    <Segment Name="Da Vinci Tank" Action="AddLeader"/>
-    <Segment Name="Captain" Action="AddLeader"/>
-    <Segment Name="Pirate Queen" Action="AddLeader"/>
-    <Segment Name="Reaper" Action="AddLeader"/>
-    <Segment Name="Quick Draw" Action="AddLeader"/>
-    <Segment Name="Lady Red Jade" Action="AddLeader"/>
-    <Segment Name="Black Beard" Action="AddLeader"/>
-    <Segment Name="Shogun" Action="AddLeader"/>
-    <Segment Name="Samurai Giant" Action="AddLeader"/>
-    <Segment Name="Sensei" Action="AddLeader"/>
   </Wheel>
 </Wheels>

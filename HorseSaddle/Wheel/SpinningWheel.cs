@@ -2,6 +2,7 @@
 using LiruGameHelper.XML;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Input;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -43,6 +44,8 @@ namespace HorseSaddle.Wheel
         private float rotation = 0;
 
         private float indicatorRotation = -MathHelper.PiOver2;
+
+        private MouseState lastFrameMouseState;
         #endregion
 
         #region Graphical Properties
@@ -201,9 +204,30 @@ namespace HorseSaddle.Wheel
         {
             // Apply drag to the rotational speed, stopping at 0.
             RotationalSpeed = (float)Math.Max(0, RotationalSpeed - (RotationalDrag * gameTime.ElapsedGameTime.TotalSeconds));
-                    
+            
             // Apply the rotational speed to the rotation.
             Rotation += (float)(RotationalSpeed * gameTime.ElapsedGameTime.TotalSeconds);
+
+            // Handle input.
+            handleInput();
+        }
+
+        private void handleInput()
+        {
+            // If the wheel is spinning, do nothing.
+            if (!IsStopped) return;
+
+            // Get the mouse state.
+            MouseState mouseState = Mouse.GetState();
+
+            // Get the change in the mouse wheel value. Note that this is the number of "detents", my mouse does 120 detents per click so that's the value I'm using.
+            int mouseWheelDelta = (mouseState.ScrollWheelValue - lastFrameMouseState.ScrollWheelValue) / 120;
+
+            // Spin the wheel by one segment.
+            Rotation += mouseWheelDelta * (MathHelper.TwoPi / SegmentCount);
+
+            // Set the last mouse state to the one from this frame.
+            lastFrameMouseState = mouseState;
         }
         #endregion
 
@@ -380,7 +404,7 @@ namespace HorseSaddle.Wheel
                 // Set the inner image of the wheel to the loaded texture.
                 wheel.InnerImage = innerImage;
             }
-
+            
             // If an indicator image URI was given, load it.
             if (wheelNode.Attributes.GetNamedItem(indicatorImageAttributeName) != null)
             {

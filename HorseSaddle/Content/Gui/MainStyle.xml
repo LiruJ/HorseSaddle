@@ -113,6 +113,26 @@
       <Background Colour="#673B75"/>
     </AddClick>
 
+    <AddDisabled Base="Add">
+      <Background Colour="#250330"/>
+    </AddDisabled>
+
+    <RemoveP>
+      <Background Image="SquareMinus" Colour="#7D5989"/>
+    </RemoveP>
+
+    <RemovePHover Base="RemoveP">
+      <Background Colour="#977DA0"/>
+    </RemovePHover>
+
+    <RemovePClick Base="RemoveP">
+      <Background Colour="#673B75"/>
+    </RemovePClick>
+
+    <RemovePDisabled Base="RemoveP">
+      <Background Colour="#250330"/>
+    </RemovePDisabled>
+
     <Remove>
       <Background Image="SquareMinus" Colour="#4F245F"/>
     </Remove>
