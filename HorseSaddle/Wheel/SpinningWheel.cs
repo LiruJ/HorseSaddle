@@ -420,6 +420,7 @@ namespace HorseSaddle.Wheel
 
                 // Set the indicator image of the wheel to the loaded texture.
                 wheel.IndicatorImage = indicatorImage;
+                wheel.IndicatorDepth = indicatorImage.Width / 2.0f;
             }
 
             // If an icon image URI was given, load it.

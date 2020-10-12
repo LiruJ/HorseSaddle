@@ -46,7 +46,6 @@ namespace HorseSaddle.Gui.Elements
                 if (nameDisplay != null) nameDisplay.Text = team.Name;
 
                 // Bind the team getting a unit to updating the list.
-                nameDisplay.Tint = team.Colour;
                 team.OnUnitAdded.Connect(freeUnitList.Add);
                 team.OnUnitRemoved.Connect(freeUnitList.Remove);
             }
@@ -105,6 +104,8 @@ namespace HorseSaddle.Gui.Elements
             decreaseScoreButton.Enabled = team.Score > 0;
 
             removePointsButton.Enabled = team.BonusPoints > 0;
+
+            if (Team != null)  nameDisplay.Tint = Team.Colour;
         }
         #endregion
     }
